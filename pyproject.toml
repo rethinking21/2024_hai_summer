@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "2024-hai-summer"
+version = "0.1.0"
+description = ""
+authors = ["rethinking21 <rethinking21@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.42.0"
+streamlit = "^1.37.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
